@@ -1,3 +1,4 @@
+import django_heroku
 """
 Django settings for hello_django project.
 
@@ -143,3 +144,4 @@ LOGGING = {
  },
  },
 }
+django_heroku.settings(locals())
